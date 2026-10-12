@@ -22,5 +22,11 @@ for row in data:
     hours = 0
     minutes = 0
     
+    days = minutes_late//1440
+    minutes_late = minutes_late%1440
+    hours = minutes_late//60
+    minutes_late = minutes_late%60
+    minutes = minutes_late
+
     print(f"Student {row[0]}: {days}D {hours}H {minutes}M")
 

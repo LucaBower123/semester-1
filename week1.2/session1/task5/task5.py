@@ -8,6 +8,12 @@ rivers = {
 
 print(rivers)
 
+rivers["egypt"] = "nyle"
+rivers["paris"] = "river"
+
+print(rivers.keys())
+print(rivers.values())
+print(rivers.items())
 # Add two new entries to the rivers database
 
 # Display all the keys
