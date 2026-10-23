@@ -9,7 +9,7 @@ We generate further numbers at `k = 1, 2, 3, ...` using:
     ak = ak-1 – k     if   ak-1 – k > 0 , and this number is not already in the sequence 
     ak = ak-1 + k     otherwise 
 
-For example: `k=1, ak-1–k = a0-1 = -1 < 0,`    hence `a1 = ak-1+k = a0+1 = 1`
+For example: `k=1, a(k-1)–k = a0-1 = -1 < 0,`    hence `a1 = ak-1+k = a0+1 = 1`
 
 The first 10 numbers in the sequence are:  0, 1, 3, 6, 2, 7, 13, 20, 12, 21
 
